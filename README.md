@@ -1,0 +1,4 @@
+CKEditor
+========
+
+CKEditor bundle
