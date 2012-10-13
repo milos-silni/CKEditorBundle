@@ -7,6 +7,7 @@ Installation
 ========
 
 ```
+// debs
 [CKEditorBundle]
     git=https://github.com/milos-silni/CKEditorBundle.git
     target=/bundles/MilosSilni/CKEditorBundle
