@@ -6,11 +6,11 @@
 
     <script type="text/javascript">
         {% autoescape true js %}
-            var CKEDITOR_BASEPATH = '{{ asset('bundles/milossilnickeditor/ckeditor/ckeditor.js')|replace({'ckeditor.js': ''}) }}';
+            var CKEDITOR_BASEPATH = '{{ asset('bundles/ckeditor/ckeditor/ckeditor.js')|replace({'ckeditor.js': ''}) }}';
         {% endautoescape %}
     </script>
 
-    <script type="text/javascript" src="{{ asset('bundles/milossilnickeditor/ckeditor/ckeditor.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('bundles/ckeditor/ckeditor/ckeditor.js') }}"></script>
     
     <script type="text/javascript">
         {% autoescape true js %}
@@ -24,7 +24,7 @@
                 '{{ key }}': [{{ val | json_encode | raw }}],
               {% endfor %}
 
-              filebrowserImageBrowseUrl: '{{ asset('bundles/milossilnickeditor/simogeo-filemanager/index.html') }}',
+              filebrowserImageBrowseUrl: '{{ asset('bundles/ckeditor/simogeo-filemanager/index.html') }}',
               'skin': 'BootstrapCK-Skin',
             });
         {% endautoescape %}

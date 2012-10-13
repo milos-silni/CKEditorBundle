@@ -12,7 +12,7 @@ use Symfony\Component\DependencyInjection\Loader;
  *
  * To learn more see {@link http://symfony.com/doc/current/cookbook/bundles/extension.html}
  */
-class MilosSilniCKEditorExtension extends Extension
+class CKEditorExtension extends Extension
 {
     /**
      * {@inheritDoc}
@@ -24,7 +24,7 @@ class MilosSilniCKEditorExtension extends Extension
         
         $container->setParameter('twig.form.resources', array_merge(
             $container->getParameter('twig.form.resources'),
-            array('MilosSilniCKEditorBundle:Form:ckeditor_widget.html.twig')
+            array('CKEditorBundle:Form:ckeditor_widget.html.twig')
         ));
 
         $loader = new Loader\XmlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
