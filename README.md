@@ -3,8 +3,8 @@ CKEditor
 
 CKEditor bundle
 
-Installation
-========
+##Installation
+
 
 ```
 // debs
