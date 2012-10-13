@@ -1,7 +1,7 @@
 CKEditor
 ========
 
-CKEditor bundle
+CKEditor bundle with simogeo filemanager as upload manager
 
 ##Installation
 
